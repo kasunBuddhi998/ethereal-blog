@@ -1,0 +1,118 @@
+ .nav_list{
+    display: inline;
+    background-color: white;
+    float: right;
+    margin-left: 25px;
+   
+
+}
+.nav_item{
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.mainSection{
+    border: 2px solid black;
+    width: 56%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.aside{
+    border: 2px solid green;
+    width: 44%;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+#mainImg{
+    width: 410px;
+    height: 233px;
+    background-color: green;
+    float: left;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 163px;
+}
+#type, #main_topic, #short_description{
+    margin-left: 163px;
+}
+
+#short_description{
+    width: 350px;
+}
+#main_topic{
+    width: 470px;
+}
+.aside_img{
+    width: 147px;
+    height: 88px;
+    margin: 20px;
+}
+#index1{
+    display:flex;
+    flex-direction: row;
+}
+.main_aside{
+    display: flex;
+    flex-direction: column;
+}
+
+body > h1 {
+    margin-left: 163px;
+}
+.new_posts > div > img , .new_posts > div > h3   {
+    width: 237px;
+}
+.new_posts > div{
+    border: 1px solid black;
+    
+    padding: 25px;
+}
+.new_posts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 163px;
+}
+
+#popular_resources > #left_popular_resources > div > img{
+    width: 139px;
+    padding: 20px;
+}
+#popular_resources > #left_popular_resources > div > div{
+    width: 172px;
+    margin-left: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+
+}
+#popular_resources > #left_popular_resources > div > div > p,#popular_resources > #left_popular_resources > div > div > a {
+    height: 20px;
+    margin: 0px;
+}
+#popular_resources > #left_popular_resources > div > div > h3{
+    height: 20px;
+
+}
+#left_popular_resources > div {
+    display: flex;
+    flex-direction: row;
+}
+#left_popular_resources {
+    display: flex;
+    flex-direction: column;
+    margin-left: 163px;
+}
+#popular_resources{
+    margin-top: 30px;
+}
+
+footer{
+    width: auto;
+    height: 300px;
+    background-color: black;
+}
